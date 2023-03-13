@@ -26,7 +26,7 @@
             table, th, td {
                 border: 2px solid black;
                 border-collapse:collapse;
-                background-color: ;
+                background-color: red;
                 border-color: #1f4068;
                 
                 }
