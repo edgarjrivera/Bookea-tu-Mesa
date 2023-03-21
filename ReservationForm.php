@@ -13,11 +13,6 @@
          </div>
     </head>
     <body>
-        
-      
-        
-
-        
         <section class = "banner">
             <h2>Bookea' Tu Mesa</h2>
             <div class = "card-container">
