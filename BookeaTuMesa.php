@@ -75,6 +75,38 @@
                 </div>
             </div>
         </section>
-        
+        <!-- Lola Restaurant  -->
+        <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="lolaRest.jpg" alt="Lola's Rest." style="width:100%">
+        <div class="w3-container w3-white">
+        <h3>Lola's Rest.</h3>
+        <h6 class="w3-opacity">Ponce</h6>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Book a Reservation</button>
+      </div>
+    </div>
+        <!-- Vistas Rest. -->
+      <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="vistas.jpg" alt="Vistas Rest." style="width:100%">
+        <div class="w3-container w3-white">
+        <h3>Vistas Rest.</h3>
+        <h6 class="w3-opacity">Ponce</h6>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Book a Reservation</button>
+      </div>
+      </div>
+        <!-- Rincon Argentino Rest. -->
+      <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="rinconArgentino.jpg" alt="Rincon Argentino Rest." style="width:100%">
+        <div class="w3-container w3-white">
+        <h3>Rincon Argentino Rest.</h3>
+        <h6 class="w3-opacity">Ponce</h6>
+        <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+        <button class="w3-button w3-block w3-black w3-margin-bottom">Book a Reservation</button>
+      </div>
+      </div>
     </body>
 </html>
