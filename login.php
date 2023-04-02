@@ -7,12 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
         <div class="topnav">
-            <a class="active" href="ReservationForm.php">Book</a>
+            <a class="active" href="BookeaTuMesa.php">Book</a>
             <a href="login.php">Login</a>
          </div>
   </head>
   <body>
-      
+      <!-- log in  -->
     <div class="center">
       <h1>Login</h1>
       <form action="validar.php" method="post" >

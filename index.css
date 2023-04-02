@@ -9,8 +9,6 @@
     background-color: #1b1b2f;
     overflow: hidden;
     
-    
-    
 }
 
 /*Estilos para el interior del nav bar*/
@@ -133,4 +131,30 @@ input[type="submit"]{
 input[type="submit"]:hover{
   border-color: #2691d9;
   transition: .5s;
+}
+
+table{
+    width: 75%;
+    height: 75px;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    margin: 50px;
+    margin-left: 300px;
+}
+
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse:collapse;
+    border-color: #1f4068;
+    
+    }
+caption{
+    color: white;
+    font-family:'Poppins', sans-serif;
+}
+
+td, th ,tr {
+    background-color: white;
+     color: black
 }

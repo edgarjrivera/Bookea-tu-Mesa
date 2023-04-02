@@ -1,5 +1,5 @@
 <?php
-
+// registra la informacion añadida por el usuario
 include("reservationdb.php");
 
 if (isset($_POST['book'])) {
@@ -11,9 +11,9 @@ if (strlen($_POST['place']) >= 1 && strlen($_POST['days']) >= 1 && strlen($_POST
 		$Fname =  ($_POST['Fname']);
 		$Pnumber =  ($_POST['Pnumber']);
 		$cantidadP =  ($_POST['cantidadP']);
-		$consulta = "INSERT INTO reservaciones (place,days,hours,nombre,numero,personas) VALUES ('$place','$days','$hours','$Fname','$Pnumber','$cantidadP')";
-		$resultado = mysqli_query($conex,$consulta);
-		if ($resultado) {
+		$query = "INSERT INTO reservaciones (place,days,hours,nombre,numero,personas) VALUES ('$place','$days','$hours','$Fname','$Pnumber','$cantidadP')";
+		$result = mysqli_query($conex,$query);
+		if ($result) {
 			?>
 			<h4 class="ok">Tu reservacion ha sido inscrita correctamente!</h4>
 			<?php

@@ -5,26 +5,26 @@ $PASSWORD =$_POST['password'] ?? "";
 session_start();
 $_SESSION['username']=$USERNAME;
 
-
+// coneccion a base de dato
 $conex=mysqli_connect("localhost","root","","reservacion");
 
-$consulta="SELECT * FROM usuarios where username='$USERNAME' and password='$PASSWORD'";
-$resultado=mysqli_query($conex,$consulta);
+// busca en la base de datos si el username y el password son correctos
+$query="SELECT * FROM usuarios where username='$USERNAME' and password='$PASSWORD'";
+$result=mysqli_query($conex,$query);
 
-$filas=mysqli_num_rows($resultado);
+$rows=mysqli_num_rows($result);
 
-if($filas){
+if($rows){
   
-    header("location:BookingList.php");
+    header("location:ReservationTable.php");
 
 }else{
     ?>
     <?php
     include("login.php");
-
   ?>
   <h1 style="color:white; margin:450px; margin-left:500px;" class="bad">Autentification error</h1>
   <?php
 }
-mysqli_free_result($resultado);
+mysqli_free_result($result);
 mysqli_close($conex);
