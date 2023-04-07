@@ -5,38 +5,38 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.topnav {
-    background-color: #1b1b2f;
-    overflow: hidden;
-    
-}
 
-/*Estilos para el interior del nav bar*/
+
+/*--------------- Estilos para el interior del nav bar ---------------*/
 .topnav a{
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    
+    font-size: 17px;  
 }
 
-/* Color de los links en hover */
+.topnav {
+    background-color: #1b1b2f;
+    overflow: hidden;
+}
+
+/*--------------- Color de los links en hover ---------------*/
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Color en el active/currenrt link */
+/*--------------- Color en el active/currenrt link ---------------*/
 .topnav a.active{
     background-color: #e43f5a;
     color: white;
 }
+
 body{
   margin: 0;
   padding: 0;
-  background-image: url(rest_img.jpg);  
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -44,7 +44,7 @@ body{
   color: #1b1b2f;
 }
 
-/* ESTILO DEL LOG IN */
+/*--------------- Log In Style ---------------*/
 .center{
   position: absolute;
   top: 50%;
@@ -133,28 +133,168 @@ input[type="submit"]:hover{
   transition: .5s;
 }
 
-table{
-    width: 75%;
-    height: 75px;
-    text-align: center;
-    font-family:'Poppins', sans-serif;
-    margin: 50px;
-    margin-left: 300px;
+
+/*--------------- Navigation Bar ---------------*/
+.topnav {
+  background-color: #333;
+  overflow: hidden;
 }
 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-table, th, td {
-    border: 2px solid black;
-    border-collapse:collapse;
-    border-color: #1f4068;
-    
-    }
-caption{
+/*------------------- Reservation List table style ---------------*/
+
+@media (max-width: 600px) {
+  /*-------------- Make table cells stack vertically ---------------*/
+  .All-Reservation tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /*--------------- Hide table headers ---------------*/
+  .All-Reservation th {
+    display: none;
+  }
+  
+  /*------------- Display table data as block elements -------------*/
+  .All-Reservation td {
+    display: block;
+    text-align: left;
+  }
+  
+  /*----------- Add some padding and a border ------------*/
+  .All-Reservation td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px;
+  }
+}
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+
+  /*------------------------ Add rounded corners and shadow to table --------------*/
+  table.All-Reservation {
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
+
+ /*--------------------- Adjust table size to be more compact ---------------*/
+ table.All-Reservation td, table.All-Reservation th {
+  padding: 10px;
+}
+
+/*----------------- Add scrollable container -----------------*/
+.table-container {
+  max-width: 100%;
+  overflow: auto;
+}
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #2c3e50;
     color: white;
-    font-family:'Poppins', sans-serif;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .All-Reservation {
+    margin-top: 20px;
+  }
+
+  .All-Reservation td, .All-Reservation th {
+    padding: 8px;
+  }
+
+  .caption h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  table th,table td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  table td:first-child,
+  table th:first-child {
+    border-left: none;
+  }
+  
+  table td:last-child,
+  table th:last-child {
+    border-right: none;
+  }
+  
+  table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /*--------------------- Button styles ---------------------*/
+  button {
+    background-color: #fff;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+/*----------- Search bar -------------*/
+input[type=text] {
+  width: 200px;
+  padding: 8px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
 
-td, th ,tr {
-    background-color: white;
-     color: black
+input[type=text]:focus {
+  width: 25%;
+}
+
+.logo-img {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
 }
