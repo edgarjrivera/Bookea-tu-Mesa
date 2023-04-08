@@ -10,10 +10,11 @@
     <body>
          <!-- Navigation Bar -->
      <div class="topnav">
-            <a class="active" href="BookeaTuMesa.php">Book</a>
-            <a href="login.php">Log In</a>
-         </div>
-         <!-- Banner de reservacion  -->
+            <a class="active" href="BookeaTuMesa.php">Home</a>
+            <a href="login.php" >Login</a>
+     </div>
+                    <!-- Banner de reservacion  -->
+         <div class="booking-div">
         <section class = "banner">
             <h2>Bookea' Tu Mesa</h2>
             <div class = "card-container">
@@ -75,6 +76,7 @@
                 </div>
             </div>
         </section>
+        </div>
         <!-- Lola Restaurant  -->
         <div class="w3-row-padding w3-padding-16">
     <div class="w3-third w3-margin-bottom">
