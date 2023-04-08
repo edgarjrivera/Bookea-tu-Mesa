@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Booking List</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="CSS/LogIn-style.css">
         <div class="topnav">
-            <a class="active" href="BookeaTuMesa.php">Book</a>
-            <a href="login.php">Login</a>
+            <a href="BookeaTuMesa.php">Home</a>
+            <a class="active" href="login.php" >Login</a>
          </div>
   </head>
   <body>

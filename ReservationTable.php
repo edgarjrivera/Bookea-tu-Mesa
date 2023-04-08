@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Booking List</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="CSS/ReservationList-style.css">
     </head>
     <body>
     <div class="container">
         <!-- Navigation Bar -->
         <div class="topnav">
-            <a class="active" href="BookeaTuMesa.php">Book</a>
-            <a href="login.php">Log In</a>
+            <a class="active" href="BookeaTuMesa.php">Home</a>
+            <a href="login.php" >Log In</a>
         </div>
 
         <div class="table-container">
@@ -59,7 +59,7 @@
             }
             // Display table headers and search form
             echo '<form method="POST" action="">
-                      <input type="text" placeholder="Search" name="search">
+                      <input type="text" placeholder="Search" name="search" class="search-table">
                       <button type="submit" name="submit" value="search" ><img src="searchicon.png" alt="Search" class="logo-img" /></button>
                   </form>
                   <table border="0" cellspacing="2" cellpadding="2"> 
