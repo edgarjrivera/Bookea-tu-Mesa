@@ -34,13 +34,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(rest_img.jpg);
+  background-image: url("rest_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
   color: #1b1b2f;
-  background-color: transparent;
 }
 
 .center {

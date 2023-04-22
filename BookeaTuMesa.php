@@ -12,9 +12,11 @@
     <!-- Navigation Bar -->
     <nav class="topnav">
         <a class="active" href="BookeaTuMesa.php">Home</a>
-        <a href="login.php">Login</a>
+        <a href="login.php" >Login</a>
     </nav>
 
+    <!-- Header -->
+    <header class="banner-display">
     <!-- Banner de reservacion  -->
     <div class="booking-div">
         <section class="banner"> 
@@ -58,50 +60,74 @@
             </div>
         </section>
     </div>
+    </header>
        <!-- Rest-Descriptions -->
-<div class="Rest-Main">
+    <div class="Rest-Main" >
+    <div class="Rest-row">
+      
+      <?php
+        $restaurants = array(
+          array(
+            "name" => "Lola's Rest.",
+            "img" => "lolaRest.jpg",
+            "description" => "¡Bienvenidos a Lola's Restaurant! Lola proyecta un aire español con decoración moderna transportando tus sentidos culinarios. Un lugar acogedor que integra la buena comida con un ambiente casual y agradable"
+          ),
+          array(
+            "name" => "Campioni Pizza",
+            "img" => "campioni.jpg",
+            "description" => "¡Bienvenido a Campioni Pizzas! donde cada mordisco es una experiencia en sí misma. Nuestras pizzas se preparan con ingredientes frescos y de la más alta calidad para que puedas disfrutar de la mejor pizza posible."
+          ),
+          array(
+            "name" => "Vistas Rest.",
+            "img" => "vistas.jpg",
+            "description" => "¡Bienvenidos a Vistas! ¡El restaurante más espectacular de Ponce, Puerto Rico! Disfruta de vistas panorámicas de 360 grados del pueblo mientras disfrutas de nuestras deliciosas especialidades en carnes y cocteles. "
+          ),
+          array(
+            "name" => "Rincon Argentino Rest.",
+            "img" => "rinconArgentino.jpg",
+            "description" => "¡Bienvenidos a El Rincón Argentino, donde los sabores auténticos de Argentina se encuentran en cada plato! Preparamos nuestros platos clásicos argentinos con los ingredientes más frescos y auténticos, para ofrecerte una experiencia gastronómica única."
+          )
+        );
 
-<!-- Portfolio Gallery Grid -->
-<div class="Rest-row">
-  
-  <?php
-    $restaurants = array(
-      array(
-        "name" => "Lola's Rest.",
-        "img" => "lolaRest.jpg",
-        "description" => "Lorem ipsum.."
-      ),
-      array(
-        "name" => "Campioni Pizza",
-        "img" => "campioni.jpg",
-        "description" => "Lorem ipsum.."
-      ),
-      array(
-        "name" => "Vistas Rest.",
-        "img" => "vistas.jpg",
-        "description" => "Lorem ipsum.."
-      ),
-      array(
-        "name" => "Rincon Argentino Rest.",
-        "img" => "rinconArgentino.jpg",
-        "description" => "Lorem ipsum.."
-      )
-    );
-
-    foreach ($restaurants as $restaurant) {
-      echo '<div class="Rest-column">
-              <div class="Rest-content">
-                <img src="' . $restaurant["img"] . '" alt="' . $restaurant["name"] . '" class="Rest-img">
-                <h3>' . $restaurant["name"] . '</h3>
-                <p>' . $restaurant["description"] . '</p>
+        foreach ($restaurants as $restaurant) {
+          echo '<div class="Rest-column">
+                  <div class="Rest-content">
+                    <img src="' . $restaurant["img"] . '" alt="' . $restaurant["name"] . '" class="Rest-img">
+                    <h3>' . $restaurant["name"] . '</h3>
+                    <p>' . $restaurant["description"] . '</p>
+                  </div>
+                </div>';
+                }
+              ?>
+            </div>
+            </div>
+            <div class="hr-container">
+              <hr class="modern-hr">
+            </div>
+            <div class="about-section">
+              <div class="about-description">
+                <h2>About Us</h2>
+                <p>¡Bienvenido a Bookea' Tu Mesa! Somos la plataforma líder en reservas de mesas en los mejores restaurantes de Puerto Rico. Con solo unos clics, podrás encontrar y reservar una mesa en el restaurante de tu elección, desde la comodidad de tu hogar o donde quiera que te encuentres. Además, ofrecemos una amplia variedad de opciones gastronómicas para satisfacer todos los gustos y presupuestos. Ya sea que estés planeando una cena romántica, una reunión con amigos o una salida en familia, Bookea' Tu Mesa es la manera más fácil y conveniente de reservar tu mesa y disfrutar de una experiencia culinaria única en Puerto Rico. ¡Haz tu reserva ahora y vive una experiencia gastronómica inolvidable!</p>
+                <div  class="bookea-logo">
+                <img src="bookea-logo.png" alt="Booke Logo">
+                </div>
               </div>
-            </div>';
-    }
-  ?>
-
-</div>
-</div>
-
-    </div>
-    </body>
-</html>
+              <div class="about-image">
+                <img src="about-img.png" alt="About us image">
+              </div>
+            </div>
+            <div class="hr-container">
+              <hr class="modern-hr">
+            </div>
+            <div class="contact-secrtrion">
+            <section id="contact">
+              <h2>Contact</h2>
+              <ul>
+                <li><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+                <li><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></li>
+              </ul>
+            </section>
+            </div>
+        </div>
+        </body>
+    </html>
