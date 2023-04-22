@@ -53,7 +53,7 @@
             // Display table headers and search form
             echo '<form method="POST" action="">
                     <input type="text" placeholder="Search" name="search" class="search-table">
-                    <button type="submit" name="submit" value="search"><img src="searchicon.png" alt="Search" class="logo-img" /></button>
+                    <button type="submit" name="submit" value="search"><img src="Media\searchicon.png" alt="Search" class="logo-img" /></button>
                 </form>
                 <table border="0" cellspacing="2" cellpadding="2"> 
                 <caption><h2>Reservation List:<h2></caption>
