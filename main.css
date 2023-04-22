@@ -1,247 +1,235 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-    }
-
-/*--------------- Estilo del header --------------- */
-.header {
-    padding: 300px;
-    text-align: center;
-    font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  width: auto;
 }
 
-/* Estilo del footer */
+/* Header */
+.header {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Footer */
 .footer {
   background-color: #1b1b2f;
   padding: 10px;
   text-align: center;
+  color: #fff;
 }
 
-
-/*------ Navigation Menu-----*/
+/* Navigation Menu */
 .topnav {
-    background-color: #1b1b2f;
-    overflow: hidden;
-
+  background-color: #1b1b2f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
-/*Estilos para el interior del nav bar*/
-.topnav a{
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    
+/* Links in the nav bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-/* Color de los links en hover */
+/* Color of the links in hover */
 .topnav a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
     color: black;
 }
 
-/* Color en el active/currenrt link */
-.topnav a.active{
-    background-color: #e43f5a;
-    color: white;
+/* Color of the active/current link */
+.topnav a.active {
+  background-color: #e43f5a;
+  color: white;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other  */
+/* Responsive layout */
 @media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }}
+}
+
 
 /*--------- Card Banner---------*/
-
-.banner{
-  min-width: 1500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("rest_img.jpg") center/cover no-repeat;
+.booking-div{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Media/rest_img.jpg") center/cover no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: #fff;
   padding-bottom: 300px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  /* border: 2px solid red; */
-  box-shadow: 2px darkgray;
   padding-top: 100px;
-}
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
 }
-.card-container{
-    display: grid;
-    grid-template-columns: 500px 500px;
-   
-    
-    
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
 }
 /*-foto de la carta -*/
-.card-img{
-    background: url("card_img.jpg") center/cover no-repeat;
-    border-radius: 15px 0px 0px 15px;
-    
-}
-/*-Titulo del card banner -*/
-.banner h2{
-    padding-bottom: 20px;
-}
-.card-content{
-    background: #fff;
-    height: 350px;
-    border-radius: 0px 15px 15px 0px;
-}
-.card-content h3{
-    text-align: center;
-    color: #000;
-    padding: 25px 0 10px 0;
-    font-size: 26px;
-    font-weight: 500;
-}
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,00.2);
-}
-.form-row{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-}
-form select, form input{
-    display: block;
-    width: 100%;
-    margin: 15px 12px;
-    padding: 5px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #eee;
-    font-weight: 300;
-}
-form input[type = text], form input[type = number], form input::placeholder, select{
-    color: #9a9a9a;
-    
-}
-form input[type = submit]{
-    color: #fff;
-    background: #e43f5a;
-    padding: 12px 0;
-    border-radius: 4px;
-    cursor: pointer;
-}
-form input[type = submit]:hover{
-    opacity: 0.9;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-@media(max-width: 992px){
-    .card-container{
-        grid-template-columns: 100%;
-        width: 100vw;
-    }
-    .card-img{
-        height: 330px;
-    }
+.card-img {
+  background: url("Media/card_img.jpg") center/cover no-repeat;
+  border-radius: 15px 0 0 15px;
+  height: 100%;
+  width: 100%;
 }
 
-/*---------------------- Restaurant boxes  -------------------------*/
-.wrap {
-    display: flex;
+/*-Titulo del card banner -*/
+
+.card-content {
+  background: #fff;
+  height: 350px;
+  border-radius: 0 15px 15px 0;
+}
+.card-content h3 {
+  text-align: center;
+  color: #000;
+  padding: 25px 0 10px;
+  font-size: 26px;
+  font-weight: 500;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.form-row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+form select,
+form input {
+  display: block;
+  width: 100%;
+  margin: 15px 12px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+form input[type='submit'] {
+  color: #fff;
+  background: #e43f5a;
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 15px 12px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  outline: none;
+}
+form input[type='submit']:hover {
+  opacity: 0.9;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(max-width: 992px) {
+  .card-container {
+    grid-template-columns: 1fr;
+    width: 100%;
   }
-  .box {
-    height: 150px;
-    border: 1px solid green;
-    flex: 1;
-    margin: 25px;
-    text-align: center;
-    line-height: 150px;
-    font-size: 36px;
+  .card-img {
+    height: 330px;
+    border-radius: 15px 15px 0 0;
   }
-  .box:first-child {
-    order: 1;
-  }
-  .box:nth-child(2) {
-    order: 2;
-  }
-  .box:nth-child(3) {
-    order: 3;
-  }
-  @media screen and (max-width: 760px) {
-    .wrap {
-      flex-direction: column;
-    }
-    .box:nth-child(2) {
-      order: 3;
-    }
-    .box:nth-child(3) {
-      order: 2;
-    }
+}
+/*--------------------------- Rest-Main ----------------------------------*/
+.Rest-main {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 5px grey;
   }
   
-/*--------------------------- Rest-Main ----------------------------------*/
-/* Center website */
-.Rest-main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-.Rest-row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.Rest-row,
-.Rest-row > .Rest-column {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.Rest-column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */
-.Rest-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.Rest-content {
+  .Rest-tittle{
+    text-align: left;
+    padding-top: 50px;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .Rest-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 20px;
+  -webkit-overflow-scrolling: touch; /* Use touch instead of auto for smoother scrolling on touch devices /
+  overflow-y: hidden; / Hide vertical scrollbar */
+  }
+  
+  .Rest-column {
+  flex: 0 0 350px;
+  padding: 5px;
+  margin-right: 20px;
+  animation: slideIn 0.5s ease-in-out;
+  box-shadow: 3px 3px 5px grey; /* Add box shadow to each column */
+  }
+  
+  @keyframes slideIn {
+  0% {
+  opacity: 0;
+  transform: translateX(-50%);
+  }
+  100% {
+  opacity: 1;
+  transform: translateX(0);
+  }
+  }
+  
+  .Rest-content {
   background-color: whitesmoke;
-  padding: 10px;
+  padding: 1rem;
   border-radius: 10px;
-  /* border: 2px solid red; */
-  box-shadow: 3px 3px 5px grey;
-  text-align:left;
+  text-align: justify;
+  margin-top: 10px; /* Add some space between the image and the content */
+  }
+  
+  .Rest-img {
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 100%; /* Set width to 100% so the image scales with the container */
+  height: 200px; /* Let the height adjust automatically */
+  border-radius: 10px;
+  object-fit: cover; /* Crop the image to fit the container without stretching */
+  margin-bottom: 10px; /* Add some space between the image and the content */
+  }
+
+@media (min-width: 768px) {
+  .Rest-column {
+    flex: 0 0 25%;
+  }
 }
 
-.Rest-img {
-  width: 335px;
-  height: 200px;
-  border-radius: 10px;
-}
 /*--------------------------- MODERN-BREAKLINE ----------------------------------*/
 .hr-container {
   display: flex;
@@ -261,37 +249,41 @@ h1 {
 
 
 /*--------------------------- About-div ----------------------------------*/
+/* About section styles */
 .about-section {
   display: flex;
   flex-direction: row;
-  text-align:left;
-  
+  text-align: left;
+  box-shadow: 3px 3px 5px grey;
 }
 
 .about-description {
   flex: 1;
   margin-right: 50px;
   border-radius: 10px;
-  text-align:left;
+  text-align: center;
+  padding: 10px;
+  max-width: 800px;
 }
 
 .about-description h2 {
   font-size: 32px;
   margin-bottom: 20px;
   border-radius: 10px;
-  text-align:left;
+  text-align: left;
 }
 
 .about-description p {
   font-size: 18px;
   line-height: 1.5;
   border-radius: 10px;
-  text-align:left;
+  text-align:justify;
 }
+
 .bookea-logo {
   border-radius: 10px;
   text-align: center;
-  padding-top: 50px ;
+  padding-top: 50px;
 }
 
 .bookea-logo img {
@@ -301,25 +293,71 @@ h1 {
 
 .about-image {
   flex: 1;
+  padding-top: 10PX;
 }
 
 .about-image img {
   max-width: 100%;
   border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
 }
 
-
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .Rest-column {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .Rest-column {
     width: 100%;
   }
 }
+/*--------------------------- Contac-div ----------------------------------*/
+.contact-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  box-shadow: 3px 3px 5px grey;
+}
+.contact-name{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+  opacity: 0.7; /* set the opacity to 70% */
+  padding: 8px;
+}
+.education {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 8px;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #e43f5a;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
 
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
