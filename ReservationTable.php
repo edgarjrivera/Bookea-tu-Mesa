@@ -58,14 +58,14 @@
                 <table border="0" cellspacing="2" cellpadding="2"> 
                 <caption><h2>Reservation List:<h2></caption>
                 <tr> 
-                    <td> ID:</td> 
-                    <td> Place:</td> 
-                    <td> Day:</td> 
-                    <td> Hour:</td> 
-                    <td> Full Name:</td>
-                    <td> Email:</td> 
-                    <td> People: </td> 
-                    <td> Actions: </td>
+                <td><b>ID:</b></td> 
+                <td><b>Place:</b></td> 
+                <td><b>Day:</b></td> 
+                <td><b>Hour:</b></td> 
+                <td><b>Full Name:</b></td>
+                <td><b>Email:</b></td> 
+                <td><b>People:</b></td> 
+                <td><b>Actions:</b></td>
                 </tr>';
 
             // Loop through result set and display data
