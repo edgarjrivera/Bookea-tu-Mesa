@@ -130,6 +130,7 @@
             <div class="hr-container">
               <hr class="modern-hr">
             </div>
+            <!-- Contact section -->
             <div class="contact-card">
               <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
               <h1 class="contact-name">Edgar J. Rivera</h1>
