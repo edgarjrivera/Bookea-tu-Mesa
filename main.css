@@ -258,6 +258,7 @@ form input[type='submit']:hover {
 }
 
 .about-description {
+  background-color: whitesmoke;
   flex: 1;
   margin-right: 50px;
   border-radius: 10px;
