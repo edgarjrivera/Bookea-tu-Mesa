@@ -7,7 +7,6 @@
     <link rel="icon" type="image/x-icon" href="logo-color.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!-- Navigation Bar -->
