@@ -207,10 +207,6 @@
                       <a href="#"> <i class="fa fa-github"></i></a>
                     </div>
                   </div>
-                  
-
-
-
            </footer>
             <div>
 
