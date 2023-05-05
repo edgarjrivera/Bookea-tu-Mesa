@@ -339,6 +339,7 @@ form input[type='submit']:hover {
   font-size: 20px;
   color: black;
   padding: 8px;
+  
 }
 button {
   border: none;
@@ -356,9 +357,104 @@ button {
 a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: white;
 }
 
 button:hover, a:hover {
   opacity: 0.7;
+}
+
+/*-------------------------- CSS PARA EL FOOTER--------------------------------*/
+
+.footer{
+  background: #1b1b2f;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 55px 50px;
+}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+.footer h3{
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300px;
+  margin: 0;
+}
+.footer h3 span{
+  color:#ddd;
+
+}
+.footer .footer-links a{
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color:inherit;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 8px;
+}
+.footer .footer-company {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.footer .footer-center{
+  width: 35%;
+}
+.footer .footer-center i{
+  width: 36px;
+  height: 36px;
+  border-radius: 50% ;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  font-size: 22px;
+}
+.footer .footer-center i.fa-enevelope{
+  font-size: 18px;
+  line-height: 34px;
+}
+.footer .footer-center p{
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.footer .footer-center p span{
+  display: block;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 2;
+}
+.footer .footer-links a::before{
+  content: "|";
+  font-weight: normal;
+  font-size: 22px;
+  display: inline-block;
+  padding-right: 5px;
+  left: 0;
+}
+.footer .footer-links .link1::before{
+  content: none;
+}
+.footer .footer-right{
+  width: 20%;
+}
+.footer .footer-company-about{
+  line-height: 20px;
+  font-weight: normal;
+  margin: 0;
+  color: #92999f;
 }
