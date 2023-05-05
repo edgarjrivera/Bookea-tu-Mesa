@@ -53,19 +53,19 @@
             // Display table headers and search form
             echo '<form method="POST" action="">
                     <input type="text" placeholder="Search" name="search" class="search-table">
-                    <button type="submit" name="submit" value="search"><img src="Media\searchicon.png" alt="Search" class="logo-img" /></button>
+                    <button type="submit" class="search-button" name="submit" value="search"><img src="Media\searchicon.png" alt="Search" class="logo-img" /></button>
                 </form>
-                <table border="0" cellspacing="2" cellpadding="2"> 
+                <table> 
                 <caption><h2>Reservation List:<h2></caption>
                 <tr> 
                 <td><b>ID:</b></td> 
-                <td><b>Place:</b></td> 
-                <td><b>Day:</b></td> 
-                <td><b>Hour:</b></td> 
-                <td><b>Full Name:</b></td>
-                <td><b>Email:</b></td> 
-                <td><b>People:</b></td> 
-                <td><b>Actions:</b></td>
+                <td class="place"><b>Place:</b></td> 
+                <td class="day"><b>Day:</b></td> 
+                <td class="hour"><b>Hour:</b></td> 
+                <td class="name"><b>Full Name:</b></td>
+                <td class="email"><b>Email:</b></td> 
+                <td class="people"><b>People:</b></td> 
+                <td class="actions"><b>Actions:</b></td>
                 </tr>';
 
             // Loop through result set and display data
@@ -88,7 +88,7 @@
                         <td>'.$Email.'</td> 
                         <td>'.$cantidadP.'</td> 
                         <td><form method="POST" action="">
-                            <button type="submit" name="delete" value="'.$id.'">Delete</button>
+                            <button type="submit" name="delete" value="'.$id.'" class="delete-button">Delete</button>
                         </form></td>
                     </tr>';
             }

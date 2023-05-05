@@ -32,13 +32,13 @@
                             <select name="place"  required>
                                 <option value="place-select">Select place</option>
                                 <option value="Rest1919">Rest 1919</option>
-                                <option value="campioni">Campioni Pizza Birra & Tapas</option>
-                                <option value="casadelcheff">La Casa Del Cheff</option>
-                                <option value="HardRock">Hard Rock Cafe</option>
+                                <option value="Campioni Pizza">Campioni Pizza Birra & Tapas</option>
+                                <option value="Casa del Chef">La Casa Del Cheff</option>
+                                <option value="Hard Rock">Hard Rock Cafe</option>
                                 <option value="Jalapeños">Jalapeños</option>
-                               <option value="lola">Lola's Restaurant</option>
-                                <option value="RinconArgentino">Rincón Argentino</option>
-                                <option value="vistas">Vistas Restaurant & Cocktail Lounge</option>
+                               <option value="Lola">Lola's Restaurant</option>
+                                <option value="Rincon Argentino">Rincón Argentino</option>
+                                <option value="Vistas">Vistas Restaurant & Cocktail Lounge</option>
                             </select>
                         </div>
                         <div class="form-row">

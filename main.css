@@ -30,7 +30,7 @@ body {
 
 /* Navigation Menu */
 .topnav {
-  background-color: #1b1b2f;
+  background-color: rgba(27, 27, 47, 0.8);
   position: fixed;
   top: 0;
   width: 100%;
