@@ -193,7 +193,7 @@
                       </div>
 
                       <div>
-                        <img src="Media/mail.jpg" style="width: 20px;">
+                        <img src="Media/white mail envelope.jpg" style="width: 20px;">
                         <p>Support @:asan6272@interponce.edu</a></p>
                       </div>
                   </div>
