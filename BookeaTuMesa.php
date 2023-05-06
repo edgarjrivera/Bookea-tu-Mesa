@@ -157,8 +157,12 @@
               <p class="education">Universidad Interamericana de Puerto Rico</p>
               <p><a href="https://www.linkedin.com/in/edgar-rivera-79b25023b/?originalSubdomain=pr" target="_blank"><button>Contact</button></a></p>
             </div>
+
            <!--COMIENZA FOOTER -->
            <!-- LINK FONT -->
+           <div class="hr-container">
+              <hr class="modern-hr">
+            </div>
           <link rel="stylesheet" type="text/css" href="main.css">
           <link rel=" stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
            <footer>
