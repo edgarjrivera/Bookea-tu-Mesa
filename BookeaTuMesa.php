@@ -148,6 +148,7 @@
             <div class="hr-container">
               <hr class="modern-hr">
             </div>
+          
             <!-- Contact section -->
             <div class="contact-card">
               <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
@@ -155,6 +156,60 @@
               <p class="title">CEO & Founder</p>
               <p class="education">Universidad Interamericana de Puerto Rico</p>
               <p><a href="https://www.linkedin.com/in/edgar-rivera-79b25023b/?originalSubdomain=pr" target="_blank"><button>Contact</button></a></p>
+            </div>
+           <!--COMIENZA FOOTER -->
+           <!-- LINK FONT -->
+          <link rel="stylesheet" type="text/css" href="main.css">
+          <link rel=" stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+           <footer>
+                <footer class="footer">
+                  <div class="footer-left">
+                    <img src="Media/bookea-logo.png" style="height: 100px;">
+                    <div class="footer-links">
+                      <a href="#" class="link1">Home</a>
+                      <a href="#"> Blog</a>
+                      <a href="#"> About us</a>
+                      <a href="#"> Contact</a>
+                    </div>
+
+                    <p class="footer-company">
+                      Bookea' Tu Mesa
+                    </p>
+                  </div>
+
+                  <div class="footer-center">
+                      <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Ponce</span>Puerto Rico</p>
+                      </div>  
+                      
+                      <div>
+                        <i class="fa fa-phone"></i>
+                        <p>(787) 902-8541</p>
+                      </div>
+
+                      <div>
+                        <i class="fa fa-envelope"></i>
+                        <p>Support @:asan6272@interponce.edu</a></p>
+                      </div>
+                  </div>
+
+                  <div class="footer-right">
+                    <p class="footer-company-about">
+                      <span>About The Company</span>
+                      !Welcome to Bookea'Tu Mesa! We are the leading platform for table reservations in the best restaurants in Puerto Rico. 
+                      With just a few clicks, you can find and reserve a table at the restaurant of your choice, from the comfort of your home or wherever you are.
+                      In addition, we offer a wide variety of dining options to satisfy all tastes and budgets.
+                    </p>
+
+                    <div class="footer-social">
+                      <a href="#"> <i class="fa fa-linkedin"></i></a>
+                      <a href="#"> <i class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+           </footer>
+            <div>
+
             </div>
         </div>
         </body>
