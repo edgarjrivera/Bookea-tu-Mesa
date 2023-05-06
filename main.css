@@ -438,6 +438,7 @@ button:hover, a:hover {
 }
 .footer .footer-links a::before{
   content: "|";
+  padding-bottom: 5px;
   font-weight: normal;
   font-size: 22px;
   display: inline-block;

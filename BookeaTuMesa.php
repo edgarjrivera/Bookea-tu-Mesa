@@ -183,17 +183,17 @@
 
                   <div class="footer-center">
                       <div>
-                        <i class="fa fa-map-marker"></i>
+                        <img src="Media/map marker red.png" style="width: 25px;">
                         <p><span>Ponce</span>Puerto Rico</p>
                       </div>  
                       
                       <div>
-                        <i class="fa fa-phone"></i>
+                        <img src="Media/425-4258321_telephone-icon-png.png" style="width: 25px;">
                         <p>(787) 902-8541</p>
                       </div>
 
                       <div>
-                        <i class="fa fa-envelope"></i>
+                        <img src="Media/mail.jpg" style="width: 20px;">
                         <p>Support @:asan6272@interponce.edu</a></p>
                       </div>
                   </div>
