@@ -71,7 +71,7 @@
       <?php
         $restaurants = array(
           array(
-            "name" => "1919.",
+            "name" => "Rest 1919.",
             "img" => "Media/Rest1919.jpg",
             "description" => "¡Welcome to 1919, the food at this upscale restaurant isn’t just farm-to-table — it’s ocean-to-table. Executive Chef Juan José Cuevas’ menu is full of sophisticated dishes, from crispy grain salad to braised veal cheeks over an apio polenta, passionfruit curd, coconut ganache, and pineapple-cilantro sorbet. If the food weren’t reason enough to visit 1919, the beachfront location inside the historic Condado Vanderbilt Hotel is enchanting."
           ),
@@ -133,12 +133,14 @@
             <div class="hr-container">
               <hr class="modern-hr">
             </div>
+
+            <!-- About Section -->
             <div class="about-section">
               <div class="about-description">
                 <h2>About Us</h2>
                 <p>!Welcome to Bookea'Tu Mesa! We are the leading platform for table reservations in the best restaurants in Puerto Rico. With just a few clicks, you can find and reserve a table at the restaurant of your choice, from the comfort of your home or wherever you are. In addition, we offer a wide variety of dining options to satisfy all tastes and budgets. Whether you are planning a romantic dinner, a meeting with friends or a family outing, Bookea' Tu Mesa is the easiest and most convenient way to reserve your table and enjoy a unique culinary experience in Puerto Rico. Make your reservation now and live an unforgettable gastronomic experience!</p>
                 <div  class="bookea-logo">
-                <img src="Media/bookea-logo.png" alt="Booke Logo">
+                <img src="Media/bookea-logo.png" alt="Bookea Logo">
                 </div>
               </div>
               <div class="about-image">
