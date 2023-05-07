@@ -12,7 +12,7 @@
          </div>
   </head>
   <body>
-      <!-- log in  -->c
+      <!-- log in  -->
     <div class="center">
       <h1>Login</h1>
       <form action="validar.php" method="post" >
