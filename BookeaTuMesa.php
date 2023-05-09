@@ -152,6 +152,9 @@
             </div>
           
             <!-- Contact section -->
+<div class="row">
+
+  <div class="column">
             <div class="contact-card">
               <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
               <h1 class="contact-name">Edgar J. Rivera</h1>
@@ -159,6 +162,27 @@
               <p class="education">Universidad Interamericana de Puerto Rico</p>
               <p><a href="https://www.linkedin.com/in/edgar-rivera-79b25023b/?originalSubdomain=pr" target="_blank"><button>Contact</button></a></p>
             </div>
+   </div>
+  <div class="column"> 
+            <div class="contact-card">
+              <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
+              <h1 class="contact-name">Daniel J.Morales</h1>
+              <p class="title">TEXT</p>
+              <p class="education">Universidad Interamericana de Puerto Rico</p>
+              <p><a href="https://www.linkedin.com/in/daniel-mora-17014023b/" target="_blank"><button>Contact</button></a></p>
+            </div>
+   </div>      
+   <div class="column"> 
+            <div class="contact-card">
+              <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
+              <h1 class="contact-name">Alexander M. Santos</h1>
+              <p class="title">TEXT</p>
+              <p class="education">Universidad Interamericana de Puerto Rico</p>
+              <p><a href="https://www.linkedin.com/in/alexander-santos-nova-b6b741273/" target="_blank"><button>Contact</button></a></p>
+            </div>
+   </div> 
+
+</div>
 
            <!--COMIENZA FOOTER -->
            <!-- LINK FONT -->
