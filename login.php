@@ -6,18 +6,19 @@
         <title>Booking List</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="CSS/LogIn-style.css">
-        <div class="topnav">
-            <a href="BookeaTuMesa.php">Home</a>
-            <a class="active" href="login.php" >Login</a>
-         </div>
   </head>
   <body>
+  <nav class="topnav">
+        <a href="BookeaTuMesa.php">Home</a>
+        <a class="active" href="login.php" >Login</a>
+    </nav>
     <!-- foto del Login -->
-  <img src="Media/restaurante blanco y negro.jpg" height="100%" width="100%">
+  <img src="Media/rest_img.jpg" class="background-img">
   
       <!-- log in  -->
     <div class="center">
       <h1>Login</h1>
+      <img src="Media/bookea-logo.png" class="logo-img">
       <form action="validar.php" method="post" >
         <div class="txt_field">
           <input type="text" name="username" required>
