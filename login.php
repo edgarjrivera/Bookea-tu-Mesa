@@ -12,6 +12,9 @@
          </div>
   </head>
   <body>
+    <!-- foto del Login -->
+  <img src="Media/restaurante blanco y negro.jpg" height="100%" width="100%">
+  
       <!-- log in  -->
     <div class="center">
       <h1>Login</h1>
