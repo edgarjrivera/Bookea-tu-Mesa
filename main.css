@@ -323,6 +323,7 @@ form input[type='submit']:hover {
   font-family: arial;
   box-shadow: 3px 3px 5px grey;
 }
+
 .contact-name{
   text-decoration: none;
   font-size: 30px;
@@ -456,4 +457,42 @@ button:hover, a:hover {
   font-weight: normal;
   margin: 0;
   color: #92999f;
+}
+/*-------------------------- CSS para el contact card--------------------------------*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+  
+  .row {
+    flex-direction: column;
+  }
 }

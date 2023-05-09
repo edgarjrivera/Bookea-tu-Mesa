@@ -31,13 +31,15 @@
   color: white;
 }
 
-body {
+.background-img
+{
   margin: 0;
   padding: 0;
-  background-image: url("rest_img.jpg");
+  background: url("Media/rest_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
+  width:100%;
   overflow: hidden;
   color: #1b1b2f;
 }
@@ -67,8 +69,9 @@ body {
 
 form .txt_field {
   position: relative;
-  border-bottom: 2px solid silver;
+  border-bottom: 2px solid rgb(145, 143, 143);
   margin: 40px 0;
+  
 }
 
 .txt_field input {

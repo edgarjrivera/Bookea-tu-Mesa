@@ -157,7 +157,6 @@
               <p class="education">Universidad Interamericana de Puerto Rico</p>
               <p><a href="https://www.linkedin.com/in/edgar-rivera-79b25023b/?originalSubdomain=pr" target="_blank"><button>Contact</button></a></p>
             </div>
-
            <!--COMIENZA FOOTER -->
            <!-- LINK FONT -->
            <div class="hr-container">
