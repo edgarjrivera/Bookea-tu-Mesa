@@ -165,7 +165,7 @@
    </div>
   <div class="column"> 
             <div class="contact-card">
-              <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
+              <img src="Media/dani.jpg" alt="Eggy" style="width:100%">
               <h1 class="contact-name">Daniel J.Morales</h1>
               <p class="title">TEXT</p>
               <p class="education">Universidad Interamericana de Puerto Rico</p>
@@ -174,7 +174,7 @@
    </div>      
    <div class="column"> 
             <div class="contact-card">
-              <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
+              <img src="Media/xito.jpg" alt="Eggy" style="width:100%">
               <h1 class="contact-name">Alexander M. Santos</h1>
               <p class="title">TEXT</p>
               <p class="education">Universidad Interamericana de Puerto Rico</p>
