@@ -406,7 +406,8 @@ button:hover, a:hover {
   text-decoration: none;
   color:inherit;
   font-family: 'Raleway', sans-serif;
-  margin-right: 8px;
+  margin-right: 30px;
+
 }
 .footer .footer-company {
   color: #ffffff;
@@ -417,6 +418,9 @@ button:hover, a:hover {
 }
 .footer .footer-center{
   width: 35%;
+  margin-bottom: 15%;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 .footer .footer-center i{
   width: 36px;
@@ -424,7 +428,7 @@ button:hover, a:hover {
   border-radius: 50% ;
   text-align: center;
   line-height: 42px;
-  margin: 10px 15px;
+  margin: 15px 15px;
   vertical-align: middle;
   font-size: 22px;
 }
@@ -451,8 +455,8 @@ button:hover, a:hover {
   font-weight: normal;
   font-size: 22px;
   display: inline-block;
-  padding-right: 5px;
-  left: 0;
+  padding-right: 10px;
+  left: 0px;
 }
 .footer .footer-links .link1::before{
   content: none;
@@ -465,6 +469,10 @@ button:hover, a:hover {
   font-weight: normal;
   margin: 0;
   color: #92999f;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 15%;
+  margin-left: 15%;
+  margin-top: 10%;
 }
 /*-------------------------- CSS para el contact card--------------------------------*/
 .gallery {
