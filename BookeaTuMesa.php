@@ -73,37 +73,37 @@
           array(
             "name" => "Rest 1919.",
             "img" => "Media/Rest1919.jpg",
-            "description" => "¡Welcome to 1919, the food at this upscale restaurant isn’t just farm-to-table — it’s ocean-to-table. Executive Chef Juan José Cuevas’ menu is full of sophisticated dishes, from crispy grain salad to braised veal cheeks over an apio polenta, passionfruit curd, coconut ganache, and pineapple-cilantro sorbet. If the food weren’t reason enough to visit 1919, the beachfront location inside the historic Condado Vanderbilt Hotel is enchanting."
+            "description" => "Welcome to 1919, the food at this upscale restaurant isn’t just farm-to-table — it’s ocean-to-table. Executive Chef Juan José Cuevas’ menu is full of sophisticated dishes, from crispy grain salad to braised veal cheeks over an apio polenta, passionfruit curd, coconut ganache, and pineapple-cilantro sorbet. If the food weren’t reason enough to visit 1919, the beachfront location inside the historic Condado Vanderbilt Hotel is enchanting."
           ),
           array(
             "name" => "Campioni Pizza",
             "img" => "Media/campioni.jpg",
-            "description" => "!Welcome to Campioni Pizzas! where each bite is an experience in itself. Our pizzas are prepared with fresh ingredients of the highest quality so that you can enjoy the best pizza possible."
+            "description" => "Welcome to Campioni Pizzas! where each bite is an experience in itself. Our pizzas are prepared with fresh ingredients of the highest quality so that you can enjoy the best pizza possible."
           ),
           array(
             "name" => "Casa del Chef.",
             "img" => "Media/CasaCheff.jpg",
-            "description" => "¡Welcome to our restaurant, where we specialize in soups, steak, and seafood! Upon entering, you'll be greeted by our friendly staff and seated in our cozy and comfortable dining area. Our restaurant features a warm and inviting ambiance, with soft lighting and tasteful decor that creates the perfect setting for a relaxed and enjoyable meal"
+            "description" => "Welcome to our restaurant, where we specialize in soups, steak, and seafood! Upon entering, you'll be greeted by our friendly staff and seated in our cozy and comfortable dining area. Our restaurant features a warm and inviting ambiance, with soft lighting and tasteful decor that creates the perfect setting for a relaxed and enjoyable meal"
           ),
           array(
             "name" => "Hard Rock.",
             "img" => "Media/210126HardRockCafePonce3-1024x576.jpg/",
-            "description" => "!Welcome to Hard Rock, a dining experience that brings together the best of deliciously juicy BBQ steak, mouthwatering hamburgers, and soulful live music. Nestled in the heart of the city, our restaurant is a haven for meat lovers and music enthusiasts alike."
+            "description" => "Welcome to Hard Rock, a dining experience that brings together the best of deliciously juicy BBQ steak, mouthwatering hamburgers, and soulful live music. Nestled in the heart of the city, our restaurant is a haven for meat lovers and music enthusiasts alike."
           ),
           array(
             "name" => "Jalapeños.",
             "img" => "Media/Jalapenos.jpg",
-            "description" => "¡Welcome to Jalapeños, a vibrant and lively restaurant that transports you to the heart of Mexico through its authentic flavors and warm atmosphere. Located in the heart of a bustling city, Jalapeños is a culinary haven for food enthusiasts seeking a true taste of Mexico."
+            "description" => "Welcome to Jalapeños, a vibrant and lively restaurant that transports you to the heart of Mexico through its authentic flavors and warm atmosphere. Located in the heart of a bustling city, Jalapeños is a culinary haven for food enthusiasts seeking a true taste of Mexico."
           ),
           array(
             "name" => "Lola's Rest.",
             "img" => "Media/lolaRest.jpg",
-            "description" => "!Welcome to Lola's Restaurant! Lola projects a Spanish air with modern decoration transporting your culinary senses. A cozy place that integrates good food with a casual and pleasant atmosphere."
+            "description" => "Welcome to Lola's Restaurant! Lola projects a Spanish air with modern decoration transporting your culinary senses. A cozy place that integrates good food with a casual and pleasant atmosphere."
           ),
           array(
             "name" => "Rincón Argentino Rest.",
             "img" => "Media/rinconArgentino.jpg",
-            "description" => "!Welcome to El Rincón Argentino, where the authentic flavors of Argentina are found in every dish! We prepare our classic Argentine dishes with the freshest and most authentic ingredients, to offer you a unique gastronomic experience."
+            "description" => "Welcome to El Rincón Argentino, where the authentic flavors of Argentina are found in every dish! We prepare our classic Argentine dishes with the freshest and most authentic ingredients, to offer you a unique gastronomic experience."
           ),
           array(
             "name" => "Vistas Rest.",
@@ -138,7 +138,7 @@
             <div class="about-section">
               <div class="about-description">
                 <h2>About Us</h2>
-                <p>!Welcome to Bookea'Tu Mesa! We are the leading platform for table reservations in the best restaurants in Puerto Rico. With just a few clicks, you can find and reserve a table at the restaurant of your choice, from the comfort of your home or wherever you are. In addition, we offer a wide variety of dining options to satisfy all tastes and budgets. Whether you are planning a romantic dinner, a meeting with friends or a family outing, Bookea' Tu Mesa is the easiest and most convenient way to reserve your table and enjoy a unique culinary experience in Puerto Rico. Make your reservation now and live an unforgettable gastronomic experience!</p>
+                <p>Welcome to Bookea'Tu Mesa! We are the leading platform for table reservations in the best restaurants in Puerto Rico. With just a few clicks, you can find and reserve a table at the restaurant of your choice, from the comfort of your home or wherever you are. In addition, we offer a wide variety of dining options to satisfy all tastes and budgets. Whether you are planning a romantic dinner, a meeting with friends or a family outing, Bookea' Tu Mesa is the easiest and most convenient way to reserve your table and enjoy a unique culinary experience in Puerto Rico. Make your reservation now and live an unforgettable gastronomic experience!</p>
                 <div  class="bookea-logo">
                 <img src="Media/bookea-logo.png" alt="Bookea Logo">
                 </div>
@@ -152,13 +152,41 @@
             </div>
           
             <!-- Contact section -->
-            <div class="contact-card">
-              <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
-              <h1 class="contact-name">Edgar J. Rivera</h1>
-              <p class="title">CEO & Founder</p>
-              <p class="education">Universidad Interamericana de Puerto Rico</p>
-              <p><a href="https://www.linkedin.com/in/edgar-rivera-79b25023b/?originalSubdomain=pr" target="_blank"><button>Contact</button></a></p>
-            </div>
+<div class="contact-row">
+
+<div class="column">
+          <div class="contact-card">
+            <img src="Media/eggy.jpg" alt="Eggy" style="width:100%">
+            <h1 class="contact-name">Edgar J. Rivera</h1>
+            <p class="title">CEO & Founder</p>
+            <p class="education">Universidad Interamericana de Puerto Rico</p>
+            <p><a href="https://www.linkedin.com/in/edgar-rivera-79b25023b/?originalSubdomain=pr" target="_blank"><button>Contact</button></a></p>
+          </div>
+ </div>
+<div class="column"> 
+          <div class="contact-card">
+            <img src="Media/dani.jpg" alt="Eggy" style="width:100%">
+            <h1 class="contact-name">Daniel J.Morales</h1>
+            <p class="title">Co-Founder</p>
+            <p class="education">Universidad Interamericana de Puerto Rico</p>
+            <p><a href="https://www.linkedin.com/in/daniel-mora-17014023b/" target="_blank"><button>Contact</button></a></p>
+          </div>
+ </div>      
+ <div class="column"> 
+          <div class="contact-card">
+            <img src="Media/xito.jpg" alt="Eggy" style="width:100%">
+            <h1 class="contact-name">Alexander M. Santos</h1>
+            <p class="title">Co-Founder</p>
+            <p class="education">Universidad Interamericana de Puerto Rico</p>
+            <p><a href="https://www.linkedin.com/in/alexander-santos-nova-b6b741273/" target="_blank"><button>Contact</button></a></p>
+          </div>
+ </div> 
+
+</div>
+
+
+
+
            <!--COMIENZA FOOTER -->
            <!-- LINK FONT -->
            <div class="hr-container">

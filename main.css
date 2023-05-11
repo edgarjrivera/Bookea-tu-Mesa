@@ -330,6 +330,7 @@ form input[type='submit']:hover {
   text-align: center;
   font-family: arial;
   box-shadow: 3px 3px 5px grey;
+
 }
 
 .contact-name{
@@ -371,6 +372,15 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
+
+.contact-row{
+  display: flex;
+}
+.column{
+  flex: 33.33%;
+  padding: 5px;
+}
+
 /*-------------------------- CSS PARA EL FOOTER--------------------------------*/
 
 .footer {
