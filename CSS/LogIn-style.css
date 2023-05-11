@@ -17,7 +17,7 @@
 }
 
 .topnav {
-  background-color: rgba(27, 27, 47, 0.8);
+  background-color:#1b1b2f;
   overflow: hidden;
 }
 
@@ -31,16 +31,33 @@
   color: white;
 }
 
-body {
+.background-img {
   margin: 0;
   padding: 0;
-  background-image: url("rest_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
   overflow: hidden;
   color: #1b1b2f;
 }
+
+@media screen and (max-width: 767px) {
+  .background-img {
+    height: 100%;
+    background-size: contain;
+    background-position: center center;
+  }
+}
+
+.logo-img {
+  display: block; /* make the logo element a block element */
+  max-width: 20%; /* set a maximum width for the logo element */
+  height: auto; /* allow the height of the logo element to adjust automatically */
+  margin: 0 auto; /* center the logo element horizontally */
+  padding-top: 20px;
+}
+
 
 .center {
   position: absolute;
@@ -48,7 +65,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  height: 400px;
+  height: 500px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 30px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
@@ -67,7 +84,7 @@ body {
 
 form .txt_field {
   position: relative;
-  border-bottom: 2px solid silver;
+  border-bottom: 2px solid rgb(145, 143, 143);
   margin: 40px 0;
 }
 

@@ -197,7 +197,7 @@
                     <img src="Media/bookea-logo.png" style="height: 100px;">
                     <div class="footer-links">
                       <a href="#" class="link1">Home</a>
-                      <a href="#"> Blog</a>
+                      <a href="#"> Restaurants</a>
                       <a href="#"> About us</a>
                       <a href="#"> Contact</a>
                     </div>
@@ -231,11 +231,6 @@
                       With just a few clicks, you can find and reserve a table at the restaurant of your choice, from the comfort of your home or wherever you are.
                       In addition, we offer a wide variety of dining options to satisfy all tastes and budgets.
                     </p>
-
-                    <div class="footer-social">
-                      <a href="#"> <i class="fa fa-linkedin"></i></a>
-                      <a href="#"> <i class="fa fa-github"></i></a>
-                    </div>
                   </div>
            </footer>
             <div>
