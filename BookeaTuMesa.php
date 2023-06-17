@@ -194,12 +194,12 @@
                       
                       <div>
                         <img src="Media/425-4258321_telephone-icon-png.png" style="width: 25px;">
-                        <p>(787) 902-8541</p>
+                        <p>(787) 963-4810</p>
                       </div>
 
                       <div>
                         <img src="Media/white mail envelope.jpg" style="width: 20px;">
-                        <p>Support @:asan6272@interponce.edu</a></p>
+                        <p>Support @:edgarjrivera10@gmail.com</a></p>
                       </div>
                   </div>
 
