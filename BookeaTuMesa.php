@@ -194,7 +194,7 @@
                       
                       <div>
                         <img src="Media/425-4258321_telephone-icon-png.png" style="width: 25px;">
-                        <p>(787) 345-4810</p>
+                        <p>(787) 963-4810</p>
                       </div>
 
                       <div>
