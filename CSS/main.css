@@ -12,22 +12,13 @@ body {
   width: auto;
 }
 
-/* Header */
+/*------------------------------------------ Header --------------------------------------------- */
 .header {
   padding-top: 300px;
   padding-bottom: 300px;
   text-align: center;
   font-size: 35px;
 }
-
-/* Footer */
-.footer {
-  background-color: #1b1b2f;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-}
-
 /* Navigation Menu */
 .topnav {
   background-color: rgba(27, 27, 47, 0.8);
@@ -64,14 +55,18 @@ body {
 }
 
 
-/*--------- Card Reservation Banner---------*/
+/*--------------------------- Card Reservation Banner --------------------------------------------*/
 .booking-div{
   width: 100%;
   margin: 0 auto;
   padding: 0px;
 }
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Media/rest_img.jpg") center/cover no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("/Media/rest_img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,7 +87,7 @@ body {
 }
 /*-foto de la carta -*/
 .card-img {
-  background: url("Media/card_img.jpg") center/cover no-repeat;
+  background: url("/Media/card_img.jpg") center/cover no-repeat;
   border-radius: 15px 0 0 15px;
   height: 100%;
   width: 100%;
@@ -254,28 +249,26 @@ form input[type='submit']:hover {
 /* About section styles */
 .about-section {
   display: flex;
-  flex-direction: row;
-  text-align: left;
-  box-shadow: 3px 3px 20px grey;
-
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .about-description {
-  background-color: whitesmoke;
-  flex: 1;
-  margin-right: 50px;
   border-radius: 10px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   max-width: 800px;
-  padding: 50px;
 }
 
 .about-description h2 {
   font-size: 32px;
   margin-bottom: 20px;
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .about-description p {
@@ -283,12 +276,13 @@ form input[type='submit']:hover {
   line-height: 1.5;
   border-radius: 10px;
   text-align:justify;
+  padding: 20px;
 }
 
 .bookea-logo {
   border-radius: 10px;
-  text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bookea-logo img {
@@ -380,8 +374,54 @@ button:hover, a:hover {
   flex: 33.33%;
   padding: 5px;
 }
+/*-------------------------- Contact card--------------------------------*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-/*-------------------------- CSS PARA EL FOOTER--------------------------------*/
+.row {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+  
+  .row {
+    flex-direction: column;
+  }
+}
+
+/*-------------------------- FOOTER--------------------------------*/
+
+/* Footer */
+.footer {
+  background-color: #1b1b2f;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
 
 .footer {
   background: #1b1b2f;
@@ -464,43 +504,4 @@ button:hover, a:hover {
   line-height: 20px;
   color: #92999f;
   margin-top: 20px;
-}
-
-/*-------------------------- CSS para el contact card--------------------------------*/
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.row {
-  width: 100%;
-  max-width: 600px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.card {
-  width: 30%;
-  background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
-  padding: 20px;
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 767px) {
-  .card {
-    width: 100%;
-  }
-  
-  .row {
-    flex-direction: column;
-  }
 }

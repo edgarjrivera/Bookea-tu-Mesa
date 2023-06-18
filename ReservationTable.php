@@ -10,7 +10,7 @@
     <body>
          <!-- Navigation Bar -->
          <div class="topnav">
-            <a class="active" href="BookeaTuMesa.php">Home</a>
+            <a class="active" href="index.php">Home</a>
             <a href="login.php" >Log In</a>
          </div>
 
@@ -25,14 +25,14 @@
             $database = "reservacion"; 
 
             // Connect to database
-            $mysqli = new mysqli("localhost","root","","reservacion"); 
+            include("reservationdb.php");
 
             // Check if delete button was clicked
             if (isset($_POST['delete'])) {
                 $id = $_POST['delete'];
 
                 // Prepare delete statement
-                $stmt = $mysqli->prepare("DELETE FROM reservaciones WHERE id = ?");
+                $stmt = $conex->prepare("DELETE FROM reservaciones WHERE id = ?");
                 $stmt->bind_param("i", $id);
 
                 // Execute delete statement
@@ -48,7 +48,7 @@
             // Search functionality
             $search_query = isset($_POST['search']) ? $_POST['search'] : '';
             $query = "SELECT * FROM reservaciones WHERE place LIKE '%$search_query%' OR nombre LIKE '%$search_query%'";
-            $result = $mysqli->query($query);
+            $result = $conex->query($query);
 
             // Display table headers and search form
             echo '<form method="POST" action="">
@@ -95,7 +95,7 @@
 
             // Free result set and close database connection
             $result->free();
-            $mysqli->close();
+            $conex->close();
 
             echo '</table>';
             ?>

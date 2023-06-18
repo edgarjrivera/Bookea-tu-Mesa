@@ -17,14 +17,14 @@ if (strlen($_POST['place']) >= 1 && strlen($_POST['days']) >= 1 && strlen($_POST
             ?>
             <script>
                 alert('Tu reservacion ha sido inscrita correctamente!');
-                window.location.href='BookeaTuMesa.php';
+                window.location.href='index.php';
             </script>
             <?php
         } else {
             ?>
             <script>
                 alert('Ups ha ocurrido un error!');
-                window.location.href='BookeaTuMesa.php';
+                window.location.href='index.php';
             </script>
             <?php 
         }
@@ -32,7 +32,7 @@ if (strlen($_POST['place']) >= 1 && strlen($_POST['days']) >= 1 && strlen($_POST
         ?>
         <script>
             alert('Por favor complete los campos!');
-            window.location.href='BookeaTuMesa.php';
+            window.location.href='index.php';
         </script>
         <?php
     }
