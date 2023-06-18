@@ -6,7 +6,7 @@ session_start();
 $_SESSION['username']=$USERNAME;
 
 // coneccion a base de dato
-$conex=mysqli_connect("localhost","root","","reservacion");
+include("reservationdb.php");
 
 // busca en la base de datos si el username y el password son correctos
 $query="SELECT * FROM usuarios where username='$USERNAME' and password='$PASSWORD'";

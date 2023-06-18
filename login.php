@@ -9,9 +9,9 @@
   </head>
   <body>
   <nav class="topnav">
-        <a href="BookeaTuMesa.php">Home</a>
-        <a class="active" href="login.php" >Login</a>
-    </nav>
+        <a class="active" href="index.php">Home</a>
+        <a href="login.php" >Login</a>
+  </nav>
     <!-- foto del Login -->
   <img src="Media/rest_img.jpg" class="background-img">
   
