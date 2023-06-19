@@ -148,6 +148,9 @@
                     <h3>' . $restaurant["name"] . '</h3>
                     <p class="rest-description">' . $restaurant["description"] . '</p>
                   </div>
+                  <div class="Rest-button">
+                  <button class="action-button">View Details</button>
+                </div>
                 </div>';
                 }
               ?>
@@ -219,19 +222,19 @@
                   </div>
 
                   <div class="footer-center">
-                      <div>
+                      <div class="map-marker">
                         <img src="Media/map_marker.png" style="width: 25px;">
-                        <p><span>Ponce</span>Puerto Rico</p>
+                        <p>Ponce, Puerto Rico</p>
                       </div>  
                       
-                      <div>
+                      <div class="telephone-icon">
                         <img src="Media/telephone-icon.png" style="width: 25px;">
                         <p>(787) 963-4810</p>
                       </div>
 
-                      <div>
+                      <div class="white-mail">
                         <img src="Media/whitemail.jpg" style="width: 20px;">
-                        <p>Support @:bookeatumesa@gmail.com</a></p>
+                        <p>bookeatumesa@gmail.com</a></p>
                       </div>
                   </div>
 

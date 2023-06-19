@@ -209,6 +209,7 @@ form input[type='submit']:hover {
   border-radius: 10px;
   text-align: justify;
   margin-top: 10px; /* Add some space between the image and the content */
+  max-height:min-content;
   }
   
   .Rest-img {
@@ -226,6 +227,25 @@ form input[type='submit']:hover {
     flex: 0 0 25%;
   }
 }
+
+.action-button {
+  background-color: #e43f5a;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
 
 /*--------------------------- MODERN-BREAKLINE ----------------------------------*/
 .hr-container {
@@ -414,15 +434,6 @@ button:hover, a:hover {
 }
 
 /*-------------------------- FOOTER--------------------------------*/
-
-/* Footer */
-.footer {
-  background-color: #1b1b2f;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-}
-
 .footer {
   background: #1b1b2f;
   width: 100%;
@@ -440,10 +451,11 @@ button:hover, a:hover {
   vertical-align: top;
   color: #fff;
   font-family: 'Raleway', sans-serif;
+
 }
 
 .footer-left {
-  width: 40%;
+  width: 33%;
 }
 
 .footer-left img {
@@ -470,7 +482,7 @@ button:hover, a:hover {
 }
 
 .footer-center {
-  width: 35%;
+  width: 33%;
   margin-top: 20px;
 }
 
@@ -489,13 +501,8 @@ button:hover, a:hover {
   margin: 0;
 }
 
-.footer-center p span {
-  font-weight: bold;
-  margin-left: 10px;
-}
-
 .footer-right {
-  width: 20%;
+  width: 33%;
   margin-top: 20px;
 }
 
