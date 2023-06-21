@@ -1,7 +1,7 @@
 # Bookea-tu-Mesa
 Restaurant Reservation System
 
-Booke tu Mesa is a web application that allows users to make reservations at various participating restaurants in Puerto Rico. Users can browse through available restaurants, view their details, and make reservations for specific dates and times. The system also provides an admin panel to manage reservations and restaurant information.
+Bookea tu Mesa is a web application that allows users to make reservations at various participating restaurants in Puerto Rico. Users can browse through available restaurants, view their details, and make reservations for specific dates and times. The system also provides an admin panel to manage reservations and restaurant information.
 
 ## Features
 
@@ -38,6 +38,6 @@ Contributions to the Restaurant Reservation System project are welcome! If you f
 
 ## License
 
-to be added shortly
+TODO
 
 ---
