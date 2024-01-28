@@ -21,7 +21,7 @@ Bookea tu Mesa is a web application that allows users to make reservations at va
 
 1. Clone the repository: `git clone https://github.com/your-username/restaurant-reservation-system.git`
 2. Import the database: Use the provided SQL file to import the database structure and sample data.
-3. Configure database connection: Update the database connection details in the relevant PHP files (`reservationdb.php`, `registrar.php`, `validar.php`).
+3. Configure database connection: Update the database connection details in the relevant PHP files (`database_connection.php`, `insert_reservation.php`, `authenticate_user.php`).
 4. Set up a web server: Configure a web server (e.g., Apache) to serve the project files.
 5. Access the application: Open the web browser and visit the application URL to access the Restaurant Reservation System.
 

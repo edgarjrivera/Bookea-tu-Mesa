@@ -18,7 +18,7 @@
         <div class="table-container">
             <!-- Display reservations table -->
             <?php
-            include("reservationdb.php");
+            include("database_connection.php");
 
             // Check if delete button was clicked
             if (isset($_POST['delete'])) {
@@ -37,7 +37,7 @@
 
             // Search functionality
             $search_query = isset($_POST['search']) ? $_POST['search'] : '';
-            $query = "SELECT * FROM reservaciones WHERE place LIKE '%$search_query%' OR nombre LIKE '%$search_query%'";
+            $query = "SELECT * FROM reservaciones WHERE RestaurantName LIKE '%$search_query%' OR FullName LIKE '%$search_query%'";
             $result = $conex->query($query);
 
             // Display table headers and search form
@@ -49,34 +49,34 @@
                 <caption><h2>Reservation List:<h2></caption>
                 <tr> 
                 <td><b>ID:</b></td> 
-                <td class="place"><b>Place:</b></td> 
-                <td class="day"><b>Day:</b></td> 
-                <td class="hour"><b>Hour:</b></td> 
-                <td class="name"><b>Full Name:</b></td>
-                <td class="email"><b>Email:</b></td> 
-                <td class="people"><b>People:</b></td> 
-                <td class="actions"><b>Actions:</b></td>
+                <td class="RestName"><b>Restaurant Name:</b></td> 
+                <td class="Date"><b>Date:</b></td> 
+                <td class="Hour"><b>Hour:</b></td> 
+                <td class="FName"><b>Full Name:</b></td>
+                <td class="Email"><b>Email:</b></td> 
+                <td class="NumOfPeople"><b>Number of People:</b></td> 
+                <td class="Actions"><b>Actions:</b></td>
                 </tr>';
 
             // Loop through result set and display data
             while ($row = $result->fetch_assoc()) {
                 $id = $row["id"];
-                $place = $row["place"];
-                $days = $row["days"];
-                $hours = $row["hours"];
-                $Fname = $row["nombre"];
+                $RestName = $row["RestaurantName"];
+                $Date = $row["Date"];
+                $Hours = $row["Hours"];
+                $Fname = $row["FullName"];
                 $Email = $row["Email"];
-                $cantidadP = $row["personas"];
+                $NumOfPeople = $row["NumberOfPeople"];
 
                 // Add delete button for each row
                 echo '<tr> 
                         <td>'.$id.'</td> 
-                        <td>'.$place.'</td> 
-                        <td>'.$days.'</td> 
-                        <td>'.$hours.'</td>
+                        <td>'.$RestName.'</td> 
+                        <td>'.$Date.'</td> 
+                        <td>'.$Hours.'</td>
                         <td>'.$Fname.'</td> 
                         <td>'.$Email.'</td> 
-                        <td>'.$cantidadP.'</td> 
+                        <td>'.$NumOfPeople.'</td> 
                         <td><form method="POST" action="">
                             <button type="submit" name="delete" value="'.$id.'" class="delete-button">Delete</button>
                         </form></td>

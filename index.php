@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-    <?php include_once 'header.php'; ?>
-    <?php include_once 'banner.php'; ?>
-    <?php include_once 'restaurants.php'; ?>
-    <?php include_once 'about.php'; ?>
-    <?php include_once 'contact.php'; ?>
-    <?php include_once 'footer.php'; ?>
+    <?php include_once 'Sections/header.php'; ?>
+    <?php include_once 'Sections/banner.php'; ?>
+    <?php include_once 'Sections/restaurants.php'; ?>
+    <?php include_once 'Sections/about.php'; ?>
+    <?php include_once 'Sections/contact.php'; ?>
+    <?php include_once 'Sections/footer.php'; ?>
 </body>
 </html>

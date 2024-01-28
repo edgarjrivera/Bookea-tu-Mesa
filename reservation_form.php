@@ -4,10 +4,10 @@
     <div class="card-img"></div>
     <div class="card-content">
         <h3>Reservation</h3>
-        <form method="POST" action="registrar.php">
+        <form method="POST" action="insert_reservation.php">
             <!-- Campos del formulario -->
             <div class="form-row">
-                <select name="place"  required>
+                <select name="RestaurantName"  required>
                     <option value="place-select">Select place</option>
                     <option value="Rest1919">Rest 1919</option>
                     <option value="Campioni Pizza">Campioni Pizza Birra & Tapas</option>
@@ -20,8 +20,8 @@
                 </select>
             </div>
             <div class="form-row">
-                <input type="date" name="days" min="<?php echo date('Y-m-d'); ?>"required>
-                <select name="hours" required>
+                <input type="date" name="Date" min="<?php echo date('Y-m-d'); ?>"required>
+                <select name="Hours" required>
                     <option value="hour-select">Select Hour</option>
                     <?php for ($i=1; $i<=9; $i++) { ?>
                         <option value="<?php echo $i; ?>:00 PM"><?php echo $i; ?>:00 pm</option>
@@ -33,7 +33,7 @@
                 <input type="email" placeholder="Email Address" name="Email" required>
             </div>
             <div class="form-row">
-                <input type="number" placeholder="How Many People?" min="1" name="cantidadP"  required>
+                <input type="number" placeholder="How Many People?" min="1" name="NumOfPeople"  required>
                 <input type="submit" name="book" value="BOOK TABLE">
             </div>
         </form>
