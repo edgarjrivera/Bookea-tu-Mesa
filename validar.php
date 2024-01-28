@@ -1,30 +1,29 @@
 <?php
-include('reservationdb.php');
-$USERNAME =$_POST['username'] ?? "";
-$PASSWORD =$_POST['password'] ?? "";
 session_start();
-$_SESSION['username']=$USERNAME;
 
-// coneccion a base de dato
-include("reservationdb.php");
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    include('reservationdb.php');
 
-// busca en la base de datos si el username y el password son correctos
-$query="SELECT * FROM usuarios where username='$USERNAME' and password='$PASSWORD'";
-$result=mysqli_query($conex,$query);
+    $USERNAME = $_POST['username'] ?? "";
+    $PASSWORD = $_POST['password'] ?? "";
 
-$rows=mysqli_num_rows($result);
+    $query = "SELECT * FROM usuarios WHERE username=? AND password=?";
+    $stmt = $conex->prepare($query);
+    $stmt->bind_param("ss", $USERNAME, $PASSWORD);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $stmt->close();
 
-if($rows){
-  
-    header("location:ReservationTable.php");
+    if ($result->num_rows == 1) {
+        $_SESSION['username'] = $USERNAME;
+        header("location: ReservationTable.php");
+        exit();
+    } else {
+        echo "<h1 style='color:white; margin:450px; margin-left:500px;' class='bad'>Authentication error</h1>";
+        include("login.php");
+    }
 
-}else{
-    ?>
-    <?php
-    include("login.php");
-  ?>
-  <h1 style="color:white; margin:450px; margin-left:500px;" class="bad">Autentification error</h1>
-  <?php
+    $result->close();
+    $conex->close();
 }
-mysqli_free_result($result);
-mysqli_close($conex);
+?>

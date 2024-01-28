@@ -1,41 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Booking List</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="CSS/ReservationList-style.css">
-    </head>
-    <body>
-         <!-- Navigation Bar -->
-         <div class="topnav">
-            <a class="active" href="index.php">Home</a>
-            <a href="login.php" >Log In</a>
-         </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Booking List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/ReservationList-style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <a class="active" href="index.php">Home</a>
+        <a href="login.php">Log In</a>
+    </div>
 
     <div class="container">
         <div class="table-container">
-        <!-- Display reservations table -->
-        <table class="All-Reservation">
-            <?php 
-            // Database credentials
-            $username = "username"; 
-            $password = "password"; 
-            $database = "reservacion"; 
-
-            // Connect to database
+            <!-- Display reservations table -->
+            <?php
             include("reservationdb.php");
 
             // Check if delete button was clicked
             if (isset($_POST['delete'])) {
                 $id = $_POST['delete'];
-
-                // Prepare delete statement
                 $stmt = $conex->prepare("DELETE FROM reservaciones WHERE id = ?");
                 $stmt->bind_param("i", $id);
 
-                // Execute delete statement
                 if ($stmt->execute()) {
                     echo "<script>alert('Reservation with ID $id deleted successfully.');</script>";
                 } else {
@@ -99,7 +89,6 @@
 
             echo '</table>';
             ?>
-        </table>
         </div>
     </div>
 </body>
